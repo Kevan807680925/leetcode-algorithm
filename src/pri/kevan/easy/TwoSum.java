@@ -103,6 +103,9 @@ public class TwoSum {
      *
      * Output: False
      *
+     *
+     * 这种写法只是简单的遍历，遍历完左子树，再遍历右子树，没用到BST的有序性，待改进
+     *
      * Complexity Analysis
      *
      * Time complexity : O(n). The entire tree is traversed only once in the worst case. Here, n refers to the number of nodes in the given tree.
